@@ -16,15 +16,15 @@
 
 @implementation MovingCell
 
-- (void)awakeFromNib{
-    
-    self.layer.cornerRadius = 3;
-    self.layer.masksToBounds = YES;
-    //给每个cell添加一个长按手势
-    UILongPressGestureRecognizer * longPress =[[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(longPress:)];
-    longPress.delegate = self;
-    [self addGestureRecognizer:longPress];
-}
+    - (void)awakeFromNib{
+        
+        self.layer.cornerRadius = 3;
+        self.layer.masksToBounds = YES;
+        //给每个cell添加一个长按手势
+        UILongPressGestureRecognizer * longPress =[[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(longPress:)];
+        longPress.delegate = self;
+        [self addGestureRecognizer:longPress];
+    }
 
 - (void)setItem:(MovingItem *)item{
     
@@ -33,11 +33,10 @@
     self.backgroundColor = item.backGroundColor;
 }
 
-- (void)longPress:(UILongPressGestureRecognizer *)longPress{
-    
-    if (self.delegate && [self.delegate respondsToSelector:@selector(longPress:)]) {
-        [self.delegate longPress:longPress];
+    - (void)longPress:(UILongPressGestureRecognizer *)longPress{
+        
+        if (self.delegate && [self.delegate respondsToSelector:@selector(longPress:)]) {
+            [self.delegate longPress:longPress];
+        }
     }
-    
-}
 @end
