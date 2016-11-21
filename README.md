@@ -3,14 +3,14 @@
 ###导读
 >拖拽排序是新闻类的App可以说是必有的交互设计，如今日头条，网易新闻等。拖拽排序是一个交互体验非常好的设计，简单，方便。
 
-######今日头条的拖拽排序界面
+####今日头条的拖拽排序界面
 ![今日头条的拖拽排序界面.png](http://upload-images.jianshu.io/upload_images/1338042-7d5fa67d9b03b5a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-######我实现的长按拖拽排序效果
+####我实现的长按拖拽排序效果
 ![长按拖拽排序.gif](http://upload-images.jianshu.io/upload_images/1338042-fb80d87f5c5fa090.gif?imageMogr2/auto-orient/strip)
 
-######实现方案
+####实现方案
 
 1.给CollectionViewCell添加一个长按手势，通过协议把手势传递到collectionView所在的控制器中。
     - (void)awakeFromNib{
@@ -94,6 +94,6 @@
         _originalCell.hidden = NO;
     }
 
-######其他
+####其他
 代码还可以进一步封装，写一个数据管理类dataTool，dataTool作为collectionView的数据源，所有的数据源方法都写到dataTool类中。手势的代理方法也在里面实现，这样控制器会简洁很多，控制器就不需要关注拖拽排序的具体逻辑了。大家有空可以自己写写看，也许你们有更好的处理方案，可以评论交流一下。
 github地址：https://github.com/HelloYeah/DraggingSort
