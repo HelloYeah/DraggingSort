@@ -10,10 +10,10 @@
  static const CGFloat itemHeight = 40;
 @implementation CollectionViewLayout
 
--(instancetype)initWithItemsHeightBlock:(HeightBlock)block{
+-(instancetype)initWithItemsWidthBlock:(WidthBlock)block{
     self = [super init];
     if (self) {
-        self.heightBlock = block;
+        self.WidthBlock = block;
         _colMargin = 8;
         _colWidth = 10;
     }
@@ -44,8 +44,8 @@
 
     //获取cell的高度
     CGFloat width = 0;
-    if (self.heightBlock) {
-         width = self.heightBlock(indexPath);
+    if (self.widthBlock) {
+         width = self.widthBlock(indexPath);
     }
     self.rightSpace += self.colWidth;
     if (self.rightSpace + width > ScreenWidth) {

@@ -162,7 +162,7 @@
 
 - (UICollectionViewFlowLayout *)layout{
     if (!_layout) {
-        _layout = [[CollectionViewLayout alloc] initWithItemsHeightBlock:^CGFloat(NSIndexPath *indexPath) {
+        _layout = [[CollectionViewLayout alloc] initWithItemsWidthBlock:^CGFloat(NSIndexPath *indexPath) {
             MovingItem * item = self.array[indexPath.item];
             return item.itemWidth;
         }];

@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef CGFloat (^HeightBlock)(NSIndexPath *indexPath);
+typedef CGFloat (^WidthBlock)(NSIndexPath *indexPath);
 
 @interface CollectionViewLayout : UICollectionViewFlowLayout
 
@@ -21,9 +21,9 @@ typedef CGFloat (^HeightBlock)(NSIndexPath *indexPath);
 //单元格的宽度
 @property (nonatomic,assign)CGFloat colWidth;
 
-@property (nonatomic,strong)HeightBlock heightBlock;
+@property (nonatomic,strong)WidthBlock widthBlock;
 
--(instancetype)initWithItemsHeightBlock:(HeightBlock)block;
+-(instancetype)initWithItemsWidthBlock:(WidthBlock)block;
 
 
 
