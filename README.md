@@ -8,7 +8,7 @@
 
 
 ####我实现的长按拖拽排序效果
-![长按拖拽排序.gif](http://upload-images.jianshu.io/upload_images/1338042-fb80d87f5c5fa090.gif?imageMogr2/auto-orient/strip)
+![长按拖拽排序.gif](http://upload-images.jianshu.io/upload_images/1338042-dd15e90dd9e752fc.gif?imageMogr2/auto-orient/strip)
 
 ####实现方案
 
