@@ -18,7 +18,7 @@
 		B4D1603A1DF558B10017C639 /* YLDargSortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D160391DF558B10017C639 /* YLDargSortModel.m */; };
 		B4D1603D1DF558CB0017C639 /* YLDargSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D1603C1DF558CB0017C639 /* YLDargSortCell.m */; };
 		B4D160401DF559180017C639 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D1603F1DF559180017C639 /* UIView+Frame.m */; };
-		B4D160481DF55C070017C639 /* YLDragSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D160461DF55C070017C639 /* YLDragSortTool.m */; };
+		B4D1604C1DF56AA20017C639 /* YLDragSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D1604B1DF56AA20017C639 /* YLDragSortTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +62,8 @@
 		B4D1603E1DF559180017C639 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		B4D1603F1DF559180017C639 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		B4D160441DF55A660017C639 /* YLDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YLDefine.h; path = ../YLDefine.h; sourceTree = "<group>"; };
-		B4D160451DF55C070017C639 /* YLDragSortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDragSortTool.h; sourceTree = "<group>"; };
-		B4D160461DF55C070017C639 /* YLDragSortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDragSortTool.m; sourceTree = "<group>"; };
+		B4D1604A1DF56AA20017C639 /* YLDragSortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDragSortTool.h; sourceTree = "<group>"; };
+		B4D1604B1DF56AA20017C639 /* YLDragSortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDragSortTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 		B4AA9DE31DDBF62900626C93 /* DraggingSort */ = {
 			isa = PBXGroup;
 			children = (
-				B4D160471DF55C070017C639 /* Tool */,
+				B4D160491DF56AA20017C639 /* Tool */,
 				B4AA9E261DDBF6AE00626C93 /* View */,
 				B4AA9E251DDBF68200626C93 /* Model */,
 				B4AA9E271DDBF6B600626C93 /* Controller */,
@@ -185,14 +185,13 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		B4D160471DF55C070017C639 /* Tool */ = {
+		B4D160491DF56AA20017C639 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				B4D160451DF55C070017C639 /* YLDragSortTool.h */,
-				B4D160461DF55C070017C639 /* YLDragSortTool.m */,
+				B4D1604A1DF56AA20017C639 /* YLDragSortTool.h */,
+				B4D1604B1DF56AA20017C639 /* YLDragSortTool.m */,
 			);
-			name = Tool;
-			path = ../../../Code/SinfoUpgrade_NewApp/Sinfo/Sinfo/NewSinfo/Home/Subscribe/Tool;
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,9 +329,9 @@
 				B4D1603D1DF558CB0017C639 /* YLDargSortCell.m in Sources */,
 				B4D160401DF559180017C639 /* UIView+Frame.m in Sources */,
 				B4D1603A1DF558B10017C639 /* YLDargSortModel.m in Sources */,
-				B4D160481DF55C070017C639 /* YLDragSortTool.m in Sources */,
 				B4AA9DE91DDBF62900626C93 /* AppDelegate.m in Sources */,
 				B4AA9DE61DDBF62900626C93 /* main.m in Sources */,
+				B4D1604C1DF56AA20017C639 /* YLDragSortTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
