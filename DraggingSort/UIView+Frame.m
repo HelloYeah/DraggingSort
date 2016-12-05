@@ -1,6 +1,6 @@
 //
 //  UIView+Frame.m
-//  Sinfo
+//   
 //
 //  Created by xiaoyu on 16/6/29.
 //  Copyright © 2016年 YaoZhong. All rights reserved.
