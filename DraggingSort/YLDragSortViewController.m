@@ -171,7 +171,7 @@
         titleLabel.font = kFont(13);
         titleLabel.text = @"我的关注";
         [titleLabel sizeToFit];
-        titleLabel.textColor = RGBColorMake(172, 172, 172, 1);
+        titleLabel.textColor = RGBColorMake(110, 110, 110, 1);
         [_topView addSubview:titleLabel];
         titleLabel.centerY = (kTopViewHeight - closeBtn.bottom) * 0.5 + closeBtn.bottom;
         titleLabel.left = kContentLeftAndRightSpace;
@@ -194,7 +194,7 @@
         _sortDeleteBtn = finshBtn;
         
         UIView * bottomLine = [[UIView alloc] initWithFrame:CGRectMake(20 * SCREEN_WIDTH_RATIO, _topView.height - kLineHeight, SCREEN_WIDTH, kLineHeight)];
-        bottomLine.backgroundColor = RGBColorMake(172, 172, 172, 1);
+        bottomLine.backgroundColor = RGBColorMake(110, 110, 110, 1);
         [_topView addSubview:bottomLine];
     }
     return _topView;

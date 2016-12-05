@@ -43,10 +43,10 @@
     _label = [[UILabel alloc] init];
     [self.contentView addSubview:_label];
     _label.font = kFont(15);
-    _label.textColor = RGBColorMake(172, 172, 172, 1);
+    _label.textColor = RGBColorMake(110, 110, 110, 1);
     _label.layer.cornerRadius = 4 * SCREEN_WIDTH_RATIO;
     _label.layer.masksToBounds = NO;
-    _label.layer.borderColor = RGBColorMake(172, 172, 172, 1).CGColor;
+    _label.layer.borderColor = RGBColorMake(110, 110, 110, 1).CGColor;
     _label.layer.borderWidth = kLineHeight;
     _label.textAlignment = NSTextAlignmentCenter;
     
