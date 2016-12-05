@@ -14,11 +14,11 @@
 		B4AA9DF41DDBF62900626C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AA9DF21DDBF62900626C93 /* LaunchScreen.storyboard */; };
 		B4AA9DFF1DDBF62900626C93 /* DraggingSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9DFE1DDBF62900626C93 /* DraggingSortTests.m */; };
 		B4AA9E0A1DDBF62900626C93 /* DraggingSortUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9E091DDBF62900626C93 /* DraggingSortUITests.m */; };
-		B4AA9E201DDBF65200626C93 /* CollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9E181DDBF65200626C93 /* CollectionViewLayout.m */; };
-		B4AA9E211DDBF65200626C93 /* MovingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9E1A1DDBF65200626C93 /* MovingCell.m */; };
-		B4AA9E221DDBF65200626C93 /* MovingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AA9E1B1DDBF65200626C93 /* MovingCell.xib */; };
-		B4AA9E231DDBF65200626C93 /* MovingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9E1D1DDBF65200626C93 /* MovingItem.m */; };
-		B4AA9E241DDBF65200626C93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9E1F1DDBF65200626C93 /* ViewController.m */; };
+		B4D160371DF558480017C639 /* YLDragSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D160361DF558480017C639 /* YLDragSortViewController.m */; };
+		B4D1603A1DF558B10017C639 /* YLDargSortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D160391DF558B10017C639 /* YLDargSortModel.m */; };
+		B4D1603D1DF558CB0017C639 /* YLDargSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D1603C1DF558CB0017C639 /* YLDargSortCell.m */; };
+		B4D160401DF559180017C639 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D1603F1DF559180017C639 /* UIView+Frame.m */; };
+		B4D160481DF55C070017C639 /* YLDragSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D160461DF55C070017C639 /* YLDragSortTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,15 +53,17 @@
 		B4AA9E051DDBF62900626C93 /* DraggingSortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraggingSortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AA9E091DDBF62900626C93 /* DraggingSortUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraggingSortUITests.m; sourceTree = "<group>"; };
 		B4AA9E0B1DDBF62900626C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4AA9E171DDBF65200626C93 /* CollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewLayout.h; sourceTree = "<group>"; };
-		B4AA9E181DDBF65200626C93 /* CollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewLayout.m; sourceTree = "<group>"; };
-		B4AA9E191DDBF65200626C93 /* MovingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingCell.h; sourceTree = "<group>"; };
-		B4AA9E1A1DDBF65200626C93 /* MovingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingCell.m; sourceTree = "<group>"; };
-		B4AA9E1B1DDBF65200626C93 /* MovingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovingCell.xib; sourceTree = "<group>"; };
-		B4AA9E1C1DDBF65200626C93 /* MovingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingItem.h; sourceTree = "<group>"; };
-		B4AA9E1D1DDBF65200626C93 /* MovingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingItem.m; sourceTree = "<group>"; };
-		B4AA9E1E1DDBF65200626C93 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B4AA9E1F1DDBF65200626C93 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4D160351DF558480017C639 /* YLDragSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDragSortViewController.h; sourceTree = "<group>"; };
+		B4D160361DF558480017C639 /* YLDragSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDragSortViewController.m; sourceTree = "<group>"; };
+		B4D160381DF558B10017C639 /* YLDargSortModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDargSortModel.h; sourceTree = "<group>"; };
+		B4D160391DF558B10017C639 /* YLDargSortModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDargSortModel.m; sourceTree = "<group>"; };
+		B4D1603B1DF558CB0017C639 /* YLDargSortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDargSortCell.h; sourceTree = "<group>"; };
+		B4D1603C1DF558CB0017C639 /* YLDargSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDargSortCell.m; sourceTree = "<group>"; };
+		B4D1603E1DF559180017C639 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		B4D1603F1DF559180017C639 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		B4D160441DF55A660017C639 /* YLDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YLDefine.h; path = ../YLDefine.h; sourceTree = "<group>"; };
+		B4D160451DF55C070017C639 /* YLDragSortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDragSortTool.h; sourceTree = "<group>"; };
+		B4D160461DF55C070017C639 /* YLDragSortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDragSortTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +114,15 @@
 		B4AA9DE31DDBF62900626C93 /* DraggingSort */ = {
 			isa = PBXGroup;
 			children = (
+				B4D160471DF55C070017C639 /* Tool */,
 				B4AA9E261DDBF6AE00626C93 /* View */,
 				B4AA9E251DDBF68200626C93 /* Model */,
 				B4AA9E271DDBF6B600626C93 /* Controller */,
 				B4AA9DE71DDBF62900626C93 /* AppDelegate.h */,
 				B4AA9DE81DDBF62900626C93 /* AppDelegate.m */,
+				B4D1603E1DF559180017C639 /* UIView+Frame.h */,
+				B4D1603F1DF559180017C639 /* UIView+Frame.m */,
+				B4D160441DF55A660017C639 /* YLDefine.h */,
 				B4AA9DED1DDBF62900626C93 /* Main.storyboard */,
 				B4AA9DF01DDBF62900626C93 /* Assets.xcassets */,
 				B4AA9DF21DDBF62900626C93 /* LaunchScreen.storyboard */,
@@ -155,8 +161,8 @@
 		B4AA9E251DDBF68200626C93 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B4AA9E1C1DDBF65200626C93 /* MovingItem.h */,
-				B4AA9E1D1DDBF65200626C93 /* MovingItem.m */,
+				B4D160381DF558B10017C639 /* YLDargSortModel.h */,
+				B4D160391DF558B10017C639 /* YLDargSortModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -164,11 +170,8 @@
 		B4AA9E261DDBF6AE00626C93 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B4AA9E171DDBF65200626C93 /* CollectionViewLayout.h */,
-				B4AA9E181DDBF65200626C93 /* CollectionViewLayout.m */,
-				B4AA9E191DDBF65200626C93 /* MovingCell.h */,
-				B4AA9E1A1DDBF65200626C93 /* MovingCell.m */,
-				B4AA9E1B1DDBF65200626C93 /* MovingCell.xib */,
+				B4D1603B1DF558CB0017C639 /* YLDargSortCell.h */,
+				B4D1603C1DF558CB0017C639 /* YLDargSortCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -176,10 +179,20 @@
 		B4AA9E271DDBF6B600626C93 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B4AA9E1E1DDBF65200626C93 /* ViewController.h */,
-				B4AA9E1F1DDBF65200626C93 /* ViewController.m */,
+				B4D160351DF558480017C639 /* YLDragSortViewController.h */,
+				B4D160361DF558480017C639 /* YLDragSortViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		B4D160471DF55C070017C639 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				B4D160451DF55C070017C639 /* YLDragSortTool.h */,
+				B4D160461DF55C070017C639 /* YLDragSortTool.m */,
+			);
+			name = Tool;
+			path = ../../../Code/SinfoUpgrade_NewApp/Sinfo/Sinfo/NewSinfo/Home/Subscribe/Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +262,7 @@
 				TargetAttributes = {
 					B4AA9DE01DDBF62900626C93 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W55448EFBF;
 					};
 					B4AA9DF91DDBF62900626C93 = {
 						CreatedOnToolsVersion = 7.2;
@@ -288,7 +302,6 @@
 				B4AA9DF41DDBF62900626C93 /* LaunchScreen.storyboard in Resources */,
 				B4AA9DF11DDBF62900626C93 /* Assets.xcassets in Resources */,
 				B4AA9DEF1DDBF62900626C93 /* Main.storyboard in Resources */,
-				B4AA9E221DDBF65200626C93 /* MovingCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,12 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4AA9E241DDBF65200626C93 /* ViewController.m in Sources */,
+				B4D160371DF558480017C639 /* YLDragSortViewController.m in Sources */,
+				B4D1603D1DF558CB0017C639 /* YLDargSortCell.m in Sources */,
+				B4D160401DF559180017C639 /* UIView+Frame.m in Sources */,
+				B4D1603A1DF558B10017C639 /* YLDargSortModel.m in Sources */,
+				B4D160481DF55C070017C639 /* YLDragSortTool.m in Sources */,
 				B4AA9DE91DDBF62900626C93 /* AppDelegate.m in Sources */,
-				B4AA9E201DDBF65200626C93 /* CollectionViewLayout.m in Sources */,
 				B4AA9DE61DDBF62900626C93 /* main.m in Sources */,
-				B4AA9E211DDBF65200626C93 /* MovingCell.m in Sources */,
-				B4AA9E231DDBF65200626C93 /* MovingItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,9 +471,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W55448EFBF;
 				INFOPLIST_FILE = DraggingSort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeliang.DraggingSort;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeliang.DraggingSort2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -468,9 +483,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W55448EFBF;
 				INFOPLIST_FILE = DraggingSort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeliang.DraggingSort;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeliang.DraggingSort2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -542,6 +558,7 @@
 				B4AA9E101DDBF62900626C93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4AA9E111DDBF62900626C93 /* Build configuration list for PBXNativeTarget "DraggingSortTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +567,7 @@
 				B4AA9E131DDBF62900626C93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4AA9E141DDBF62900626C93 /* Build configuration list for PBXNativeTarget "DraggingSortUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +576,7 @@
 				B4AA9E161DDBF62900626C93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
