@@ -14,7 +14,7 @@
 #define kDeleteBtnWH 10 * SCREEN_WIDTH_RATIO
 @interface YLDargSortCell ()<UIGestureRecognizerDelegate>
 @property (nonatomic,strong)  UILabel *label;
-@property (nonatomic,assign) BOOL  isEditing;
+
 @property (nonatomic,strong) UIButton * deleteBtn;
 @end
 @implementation YLDargSortCell
@@ -71,10 +71,7 @@
     _deleteBtn.hidden = NO;
 }
 
-- (void)editStateChange:(NSNotification *)noti {
 
-    self.isEditing = YES;
-}
 
 - (void)setSubscribe:(NSString *)subscribe {
     

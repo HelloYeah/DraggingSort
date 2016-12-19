@@ -473,7 +473,7 @@
 				DEVELOPMENT_TEAM = W55448EFBF;
 				INFOPLIST_FILE = DraggingSort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeliang.DraggingSort2;
+				PRODUCT_BUNDLE_IDENTIFIER = yeliang.YLSetting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -485,7 +485,7 @@
 				DEVELOPMENT_TEAM = W55448EFBF;
 				INFOPLIST_FILE = DraggingSort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeliang.DraggingSort2;
+				PRODUCT_BUNDLE_IDENTIFIER = yeliang.YLSetting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
