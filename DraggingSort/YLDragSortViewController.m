@@ -1,6 +1,6 @@
 //
 //   YLDragSortViewController.m
-//   
+//
 //
 //  Created by HelloYeah on 2016/11/30.
 //  Copyright © 2016年 YeLiang. All rights reserved.
@@ -80,12 +80,12 @@
         if (![YLDragSortTool shareInstance].isEditing) {
             return;
         }
-     
+        
         NSArray *cells = [self.dragSortView visibleCells];
         for (YLDargSortCell *cell in cells) {
             [cell showDeleteBtn];
         }
-       
+        
         //获取cell的截图
         _snapshotView  = [cell snapshotViewAfterScreenUpdates:YES];
         _snapshotView.center = cell.center;
@@ -107,7 +107,7 @@
         //计算截图视图和哪个cell相交
         for (UICollectionViewCell *cell in [_dragSortView visibleCells]) {
             //跳过隐藏的cell
-            if ([_dragSortView indexPathForCell:cell] == _indexPath || [[_dragSortView indexPathForCell:cell] item] == 0) {
+            if ([_dragSortView indexPathForCell:cell] == _indexPath) {
                 continue;
             }
             //计算中心距
@@ -142,9 +142,9 @@
 
 - (void)YLDargSortCellCancelSubscribe:(NSString *)subscribe {
     
-   UIAlertController * alertController = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:@"取消订阅%@",subscribe] message:nil preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController * alertController = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:@"取消订阅%@",subscribe] message:nil preferredStyle:UIAlertControllerStyleAlert];
     [self presentViewController:alertController animated:YES completion:^{
-       
+        
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [alertController dismissViewControllerAnimated:YES completion:nil];
         });
@@ -153,7 +153,7 @@
 
 
 - (UIView *)topView {
-
+    
     if (!_topView) {
         _topView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, kTopViewHeight)];
         _topView.backgroundColor = [UIColor whiteColor];
@@ -207,7 +207,7 @@
     
     self.dragSortView.scrollEnabled = ![YLDragSortTool shareInstance].isEditing;
     [_sortDeleteBtn setTitle:title forState:UIControlStateNormal];
-   
+    
     [self.dragSortView reloadData];
 }
 

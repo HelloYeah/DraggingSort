@@ -1,6 +1,6 @@
 //
 //   YLDargSortCell.m
-//   
+//
 //
 //  Created by HelloYeah on 2016/11/30.
 //  Copyright © 2016年 YeLiang. All rights reserved.
@@ -29,7 +29,7 @@
 }
 
 - (void)setUp {
-
+    
     
     //给每个cell添加一个长按手势
     UILongPressGestureRecognizer * longPress =[[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(gestureAction:)];
@@ -60,14 +60,14 @@
 }
 
 - (void)cancelSubscribe {
-
+    
     if (self.delegate && [self.delegate respondsToSelector:@selector(YLDargSortCellCancelSubscribe:)]) {
         [self.delegate YLDargSortCellCancelSubscribe:self.subscribe];
     }
 }
 
 - (void)showDeleteBtn {
-
+    
     _deleteBtn.hidden = NO;
 }
 
@@ -85,7 +85,7 @@
 }
 
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
-
+    
     if ([gestureRecognizer isKindOfClass:[UIPanGestureRecognizer class]] && ![YLDragSortTool shareInstance].isEditing) {
         return NO;
     }
